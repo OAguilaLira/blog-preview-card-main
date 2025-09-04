@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: "Figtree", sans-serif;
+}
+
+.blog-card {
+    width: 384px;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid #111111;
+}
+
+.blog-card-content {
+    margin: 24px 0;
+}
+
+.blog-card-image-container img {
+    border-radius: 10px;
+}
+
+.card-content-category {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    padding: 4px 12px;
+    line-height: 150%;
+    display: inline-block;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
