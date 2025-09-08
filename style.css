@@ -63,8 +63,13 @@ body {
     margin: 12px 0;
 }
 
-.card-content-title:hover,
-.card-content-title:focus {
+.card-content-title a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.card-content-title a:hover,
+.card-content-titlea a:focus {
   color: #F4D04E;
   text-decoration: underline;
   /* outline: none;  */
