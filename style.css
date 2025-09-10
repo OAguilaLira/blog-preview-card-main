@@ -5,6 +5,9 @@
 
 body {
     background-color: #F4D04E;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-container {
@@ -25,9 +28,7 @@ body {
 
 .blog-card:hover,
 .blog-card:focus-within {
-  /* background-color: hsl(0, 0%, 100%); */
   transform: translateY(-3px);
-  /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); */
   transition: all 0.3s ease;
 }
 
@@ -72,9 +73,6 @@ body {
 .card-content-titlea a:focus {
   color: #F4D04E;
   text-decoration: underline;
-  /* outline: none;  */
-  /* outline: 2px solid hsl(47, 88%, 63%);
-  outline-offset: 4px; */
   transition: color 0.2s;
 }
 
